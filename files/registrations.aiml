@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+    <category>
+        <pattern>^ REGISTRATION</pattern>
+        <template>
+            <button>
+                <text>What are the conditions to register for PBe?</text>
+                <postback>WHAT ARE THE CONDITIONS TO REGISTER FOR PBE</postback>
+            </button>
+            <button>
+                <text>I have obtained a Temporary ID and Password What are the steps to register for PBe?</text>
+                <postback>I have obtained a Temporary ID and Password What are the steps to register for PBe</postback>
+            </button>
+            <button>
+                <text>I have an ATM Card. What are the steps to register for PBe?</text>
+                <postback>I have an ATM Card What are the steps to register for PBe</postback>
+            </button>
+        </template>
+    </category>	
+    
+    <category>
+        <pattern>REGISTRATIONS</pattern>
+        <template><srai>REGISTRATION</srai></template>
+    </category>
+	
+	<category>
+	    <pattern>WHAT ARE THE CONDITIONS TO REGISTER FOR PBE</pattern>
+	    <template>
+	        To register for PBe, you must fulfil any ONE of the following conditions:
+	        <ul>
+	            <li>Have a Temporary ID and Password upon subscription for PBe at branches</li>
+	            <li>Have an ATM Card or PB Credit / Debit Card with a registered card PIN</li>
+            </ul>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>I have obtained a Temporary ID and Password What are the steps to register for PBe</pattern>
+        <template>
+            <link>
+                <text>Watch the video here</text>
+                <url>https://www.youtube.com/embed/EpeVl1mHYls</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ STEPS ^ REGISTER ^ PBE ^ TEMPORARY ^ ID ^ PASSWORD ^</pattern>
+        <template><srai>I have obtained a Temporary ID and Password What are the steps to register for PBe</srai></template>
+    </category>
+    
+    <category>
+        <pattern>I have an ATM Card What are the steps to register for PBe</pattern>
+        <template>
+            <link>
+                <text>Watch the video here</text>
+                <url>https://www.youtube.com/embed/JXmeERJZHF0</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ REGISTER ^ ATM CARD</pattern>
+        <template><srai>I have an ATM Card What are the steps to register for PBe</srai></template>
+    </category>
+    
+    
+</aiml>

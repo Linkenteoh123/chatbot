@@ -1,81 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <!--<category>-->
-  <!--  <pattern>*</pattern>-->
-  <!--  <template>No ans.</template>-->
-  <!--</category> -->
+<aiml version="2.0">
+    
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I have no answer for "<star/>" please rephrase the question.</template>
+  </category> 
   
   <category>
-    <pattern>Hi *</pattern>
+    <pattern>HI ^</pattern>
     <template>Hi there, Welcome to PBe Enquiry Chatbot. How may I help you?</template>
   </category>  
-    
-  <category>
-    <pattern>* WHAT IS PBE</pattern>
-    <template>PBe (formerly PBeBank) is Public Bank’s online banking website. It facilitates online financial services, online bill payment and informational services.</template>
-  </category>
   
   <category>
-    <pattern>* OPERATING HOURS</pattern>
-    <template>PBe service is available 24 hours, 7 days a week.</template>
-  </category>
-  
-  <category>
-    <pattern>WHO CAN ACCESS PBE</pattern>
-    <template>PBe (formerly PBeBank) is Public Bank’s online banking website. It facilitates online financial services, online bill payment and informational services.</template>
-  </category>
-  
-  <category>
-    <pattern>* BRANCH DETAILS</pattern>
-    <template>You can find a complete list of branch addresses on our website by clicking on the 'Branch Locator'' menu item at http://www.pbebank.com.</template>
-  </category>
-  
-  <category>
-    <pattern>CAN I REGISTER PUBLIC BANK ACCOUNT ON MY OWN</pattern>
-    <template>
-        Yes. Any of the following account types can register for a PBe profile: 
-            <ul>
-                <li>Personal Account</li>
-                <li>Joint Account (be it either one to sign or anyone to sign)</li>
-            </ul>
-    </template>
-  </category>
-  
-  <category>
-    <pattern>Can an individual send money to a business entity</pattern>
-    <template>No. This service is currently available for individuals sending to individuals only</template>
-  </category>
-
-    <category>
-        <pattern>How much do I have to pay to register for a PBe account</pattern>
-        <template>Subscription to our online financial services is free.</template>
-    </category>
-    
-    <category>
-        <pattern>Can I access PBe Online Banking Services from overseas</pattern>
-        <template>You can access PBe as long as you have an internet connection and a PBe account profile. However, to perform any financial transaction, you would require a local telco service with international roaming enabled to receive the PAC SMS.</template>
-    </category>
-    
-    <category>
-        <pattern>How do I apply for PBe services if I am outside of Malaysia and have an account with the Public Bank Group</pattern>
-        <template>You can only apply for PBe online banking services only when you are in Malaysia. Please visit your account holding branch to apply for an e-banking profile. Once you have your User ID and password, you can login anywhere.</template>
-    </category>
-    
-     <category>
-        <pattern>Am I eligible to apply for a PBe profile</pattern>
-        <template>
-            <ul>
-                <li>Be at least 18 years old</li>
-                    Posses any of the following Public Bank products:
-            </ul>
-            <ol>
-                <li>Saving Account</li>
-                <li>Current Account</li>
-                <li>Loans or Hire Purchase</li>
-                <li>Credit Card</li>
-            </ol>
-        </template>
-    </category>
-    
-    
+    <pattern>HELLO ^</pattern>
+    <template><srai>HI ^</srai></template>
+  </category>  
 </aiml>

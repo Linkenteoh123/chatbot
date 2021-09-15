@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>HOW DO I ACCESS MY BUSINESS BANKING ACCOUNT</pattern>
+	    <template>
+	        <image>https://i.ibb.co/QYYmHX7/COMMON1.png</image>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>For mobile devices what are the functions of the icons</pattern>
+        <template>
+            <image>https://i.ibb.co/fHDFF6b/COMMON2.png</image>
+        </template>
+    </category>
+</aiml>

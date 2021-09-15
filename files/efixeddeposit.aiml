@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>HOW TO OPEN AN EFD ACCOUNT</pattern>
+	    <template>
+	        Please follow the steps listed below:
+	        <ol>
+	            <li>Choose Account</li>
+	            <li>Click on Fixed Deposit</li>
+	            <li>Select PB eFD</li>
+	            <li>Click on Placement</li>
+                <li>Select From Account</li>
+                <li>Click Open eFD Account</li>
+                <li>Complete the FATCA Self-Certification and click Next</li>
+                <li>Accept the Account Opening Declaration and acknowledge receipt of PIDM Brochure</li>
+                <li>Complete Data Protection Notice and Consent</li>
+                <li>Accept the Terms and Conditions</li>
+                <li>Click “Request PAC Now”</li>
+                <li>Enter PAC Number</li>
+                <li>Verify details entered and click on 'CONFIRM' button</li>
+                <li>Click on “PB eFD Placement” button to make a placemen</li>
+            </ol>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ OPEN AN EFD ACCOUNT</pattern>
+        <template><srai>HOW TO OPEN AN EFD ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ OPEN EFD ACCOUNT</pattern>
+        <template><srai>HOW TO OPEN AN EFD ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ OPEN FIXED DEPOSIT ACCOUNT</pattern>
+        <template><srai>HOW TO OPEN AN EFD ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>FIXED DEPOSIT</pattern>
+        <template>
+            <button>
+                <text>How to open an EFD account?</text>
+                <postback>HOW TO OPEN AN EFD ACCOUNT</postback>
+            </button>
+            <button>
+                <text>How to perform EFD placement?</text>
+                <postback>HOW TO PERFORM EFD PLACEMENT</postback>
+            </button>
+            <button>
+                <text>How to perform EFD withdrawal?</text>
+                <postback>HOW TO PERFORM EFD WITHDRAWAL</postback>
+            </button>
+            <button>
+                <text>How to print placement or renewal slip?</text>
+                <postback>HOW TO PRINT PLACEMENT OR RENEWAL SLIP</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO PERFORM EFD PLACEMENT</pattern>
+        <template>
+            Please follow the steps listed below:
+	        <ol>
+	            <li>Choose Account</li>
+	            <li>Click on Fixed Deposit</li>
+	            <li>Select PB eFD</li>
+	            <li>Click on Placement</li>
+                <li>Select From Account</li>
+                <li>Select Tenure (Month)</li>
+                <li>Key-in Principal Amount</li>
+                <li>Select Interest Payment Mode and click 'NEXT' button</li>
+                <li>Read through the Terms and Conditions and click on "Accept"</li>
+                <li>Click "Request PAC Now"</li>
+                <li>Enter PAC Number</li>
+                <li>Verify details entered and click on 'CONFIRM' button</li>
+            </ol>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PERFORM EFD PLACEMENT</pattern>
+        <template><srai>HOW TO PERFORM EFD PLACEMENT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ DO EFD PLACEMENT</pattern>
+        <template><srai>HOW TO PERFORM EFD PLACEMENT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ PERFORM FIXED DEPOSIT PLACEMENT</pattern>
+        <template><srai>HOW TO PERFORM EFD PLACEMENT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ DO FIXED DEPOSIT PLACEMENT</pattern>
+        <template><srai>HOW TO PERFORM EFD PLACEMENT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO PERFORM EFD WITHDRAWAL</pattern>
+        <template>
+            Please follow the steps listed below:
+	        <ol>
+	            <li>Choose Account</li>
+	            <li>Click on Fixed Deposit</li>
+	            <li>Select PB eFD</li>
+	            <li>Click on Withdrawal</li>
+                <li>Select PB eFD Account No</li>
+                <li>Click on eFD Serial No</li>
+                <li>Click “Yes” on pop up message to proceed or “No” to cancel</li>
+                <li>Verify details and click on 'NEXT' button</li>
+                <li>Click "Request PAC Now"</li>
+                <li>Enter PAC Number</li>
+                <li>Verify details entered and click on 'CONFIRM' button</li>
+            </ol>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PERFORM FIXED DEPOSIT WITHDRAWAL</pattern>
+        <template><srai>HOW TO PERFORM EFD WITHDRAWAL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ PERFORM EFD WITHDRAWAL</pattern>
+        <template><srai>HOW TO PERFORM EFD WITHDRAWAL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WITHDAW ^ EFD</pattern>
+        <template><srai>HOW TO PERFORM EFD WITHDRAWAL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ EFD WITHDRAWAL</pattern>
+        <template><srai>HOW TO PERFORM EFD WITHDRAWAL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ WITHDRAW ^ FIXED DEPOSIT ^</pattern>
+        <template><srai>HOW TO PERFORM EFD WITHDRAWAL</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO PRINT PLACEMENT OR RENEWAL SLIP</pattern>
+        <template>
+            Please follow the steps listed below:
+	        <ol>
+	            <li>Choose Account</li>
+	            <li>Click on Fixed Deposit</li>
+	            <li>Select PB eFD</li>
+	            <li>Click on Print Placement / Renewal Slip</li>
+                <li>Select PB eFD Account No</li>
+                <li>Click on the PB eFD Serial No and click Print</li>
+            </ol>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ PRINT ^ PLACEMENT ^</pattern>
+        <template><srai>HOW TO PRINT PLACEMENT OR RENEWAL SLIP</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ PRINT RENEWAL SLIP ^</pattern>
+        <template><srai>HOW TO PRINT PLACEMENT OR RENEWAL SLIP</srai></template>
+    </category>
+</aiml>

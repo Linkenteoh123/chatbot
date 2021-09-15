@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ 
+  <category>
+    <pattern>^ WHAT IS PBE</pattern>
+    <template>PBe (formerly PBeBank) is Public Bank’s online banking website. It facilitates online financial services, online bill payment and informational services.</template>
+  </category>
+  
+  <category>
+    <pattern>^ WHAT PBE IS</pattern>
+    <template>PBe (formerly PBeBank) is Public Bank’s online banking website. It facilitates online financial services, online bill payment and informational services.</template>
+  </category>  
+  
+  <category>
+    <pattern>^ OPERATING HOURS ^</pattern>
+    <template>PBe service is available 24 hours, 7 days a week.</template>
+  </category>
+  
+  <category>
+    <pattern>^ OPERATE ^</pattern>
+    <template><srai>* OPERATING HOURS</srai></template>
+  </category>  
+  
+  <category>
+    <pattern>WHO CAN ACCESS PBE</pattern>
+    <template>
+        Who can access PBE?
+        <ul>
+            <li>PBe informational services are accessible to all Internet users.</li>
+            <li>Transactional services are exclusive to customers with a registered PBe profile.</li>
+        </ul>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>^ WHO # ACCESS ^</pattern>
+      <template><srai>WHO CAN ACCESS PBE</srai></template>
+  </category>
+  
+  <category>
+    <pattern>^ BRANCH DETAILS ^</pattern>
+    <template>You can find a complete list of branch addresses on our website by clicking on the 'Branch Locator'' menu item at http://www.pbebank.com.</template>
+  </category>
+  
+  <category>
+    <pattern>CAN I REGISTER PUBLIC BANK ACCOUNT ON MY OWN</pattern>
+    <template>
+        Yes. Any of the following account types can register for a PBe profile: 
+            <ul>
+                <li>Personal Account</li>
+                <li>Joint Account (be it either one to sign or anyone to sign)</li>
+            </ul>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>^ REGISTER # MY OWN ^</pattern>
+      <template><srai>CAN I REGISTER PUBLIC BANK ACCOUNT ON MY OWN</srai></template>
+  </category>
+  
+  <category>
+      <pattern>^ REGISTER # MYSELF ^</pattern>
+      <template><srai>CAN I REGISTER PUBLIC BANK ACCOUNT ON MY OWN</srai></template>
+  </category>
+  
+  <category>
+    <pattern>Can an individual send money to a business entity</pattern>
+    <template>No. This service is currently available for individuals sending to individuals only</template>
+  </category>
+  
+  <category>
+      <pattern>^ Send money to business ^</pattern>
+      <template><srai>Can an individual send money to a business entity</srai></template>
+  </category>
+
+    <category>
+        <pattern>HOW MUCH DO I HAVVE TO PAY TO REGISTER FOR A PBE ACCOUNT</pattern>
+        <template>Subscription to our online financial services is free.</template>
+    </category>
+    
+    <category>
+        <pattern>^ MUCH # ACCOUNT ^</pattern>
+        <template><srai>HOW MUCH DO I HAVVE TO PAY TO REGISTER FOR A PBE ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ FEES # REGISTRATION ^</pattern>
+        <template><srai>HOW MUCH DO I HAVVE TO PAY TO REGISTER FOR A PBE ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ REGISTRATION # FEES ^</pattern>
+        <template><srai>HOW MUCH DO I HAVVE TO PAY TO REGISTER FOR A PBE ACCOUNT</srai></template>
+    </category>
+    
+    <category>
+        <pattern>CAN I ACCESS PBE FROM OVERSEAS</pattern>
+        <template>You can access PBe as long as you have an internet connection and a PBe account profile. However, to perform any financial transaction, you would require a local telco service with international roaming enabled to receive the PAC SMS.</template>
+    </category>
+    
+    <category>
+        <pattern>^ ACCESS # OVERSEAS ^</pattern>
+        <template><srai>CAN I ACCESS PBE FROM OVERSEAS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>HOW DO I TERMINATE MY PBE PROFILE</pattern>
+        <template>To terminate your existing e-banking profile, please approach any of our Public Bank branches. You will be guided on filling up and submitting an E-Banking Termination form. Alternatively, you may also contact our Customer Support Helpdesk for assistance.</template>
+    </category>
+    
+    <category>
+        <pattern>^ TERMINATE PROFILE ^</pattern>
+        <template><srai>HOW DO I TERMINATE MY PBE PROFILE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ TERMINATE # PROFILE ^</pattern>
+        <template><srai>HOW DO I TERMINATE MY PBE PROFILE</srai></template>
+    </category>
+    
+     <category>
+        <pattern>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</pattern>
+        <template>
+            <ul>
+                <li>Be at least 18 years old</li>
+                    Posses any of the following Public Bank products:
+            </ul>
+            <ol>
+                <li>Saving Account</li>
+                <li>Current Account</li>
+                <li>Loans or Hire Purchase</li>
+                <li>Credit Card</li>
+            </ol>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CAN I APPLY ^ PBE ^</pattern>
+        <template><srai>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ APPLY ^ PBE ^</pattern>
+        <template><srai>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</srai></template>
+    </category>
+    
+    <!--<category>-->
+    <!--    <pattern>^ REGISTER ^ PBE ^</pattern>-->
+    <!--    <template><srai>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</srai></template>-->
+    <!--</category>-->
+    
+    <category>
+        <pattern>AM I  ELIGIBLE ^ APPLY ^ PBE ^</pattern>
+        <template><srai>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>^ CONDITIONS ^ APPLY ^ PBE ^</pattern>
+        <template><srai>AM I ELIGIBLE TO APPLY FOR A PBE PROFILE</srai></template>
+    </category>
+</aiml>
